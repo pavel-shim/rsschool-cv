@@ -1,9 +1,10 @@
 body {
     width: 600px;
     text-align: left;
-    margin: 0, auto;
+    margin: 10px    ;
     font: 18px arial, sans-serif;
     line-height: 27px;
+
 }
 
 h1{
@@ -24,5 +25,8 @@ h1{
 }
 li{
     font-style: italic;
+}
+.logors{
+    width: 60px;
 }
 
