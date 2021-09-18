@@ -1,32 +1,92 @@
-body {
-    width: 600px;
-    text-align: left;
-    margin: 10px    ;
-    font: 18px arial, sans-serif;
-    line-height: 27px;
 
+
+body{
+  margin: 0;
+  background: rgb(63, 59, 59);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  max-width: 1900px;
+}
+
+
+
+.ul-line {
+  display: flex;
+}
+
+.section-header a{
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 18px;
+  color: white;
+
+}
+.header li {
+  list-style: none;
+}
+
+/* Foto */
+.aboutme {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  
+  
+}
+
+article {
+  margin-left: 40px;
 }
 
 h1{
-    text-align: center;
+  font-size: 28px;
+  color: white;
 }
 
 .foto {
-    width: 160px;
-    border: 2px solid white;
-    margin: 0;
-    padding: 0;
-}
-.li{
-    text-align: left;
-    font-weight: bold;
-    text-decoration: underline;
-    text-indent: 20px;
-}
-li{
-    font-style: italic;
-}
-.logors{
-    width: 60px;
+  max-width: 200px;
+  box-shadow: 3px 3px 5px 5px white;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 45px;
 }
 
+.info {
+  margin-top: 50px;
+  max-width: 900px;
+  font-size: 18px;
+}
+
+/* main */
+.skils {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.working {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.main li {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+
+
+
+.logors {
+  max-width: 60px;
+}
