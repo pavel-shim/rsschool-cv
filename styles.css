@@ -25,7 +25,7 @@ body{
   color: white;
 
 }
-.header li {
+.header li, .education li {
   list-style: none;
 }
 
@@ -59,8 +59,12 @@ h1{
 
 .info {
   margin-top: 50px;
-  max-width: 900px;
   font-size: 18px;
+}
+.info1 {
+  margin-top: 50px;
+  font-size: 18px;
+  max-width: 900px;
 }
 
 /* main */
@@ -84,9 +88,70 @@ h1{
   line-height: 40px;
 }
 
+/* My project */
+.projects {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
 
+.project1, .project01 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h2{
+  font-size: 28px;
+  color: white;
+}
+
+.fotoprojects {
+  max-width: 400px;
+  box-shadow: 3px 3px 5px 5px white;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+
+.project1 section, .project01 section {
+  margin-left: 40px;
+}
+
+.info {
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.education section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact a, footer a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
 
 
 .logors {
-  max-width: 60px;
+  max-width: 50px;
+}
+
+.logogit {
+  max-width: 30px;
+}
+
+footer {
+  text-align: center;
 }
