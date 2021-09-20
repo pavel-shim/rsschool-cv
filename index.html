@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+<!-- flash -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- flash -->
   </head>
   <body>
     <div class="content">
@@ -93,6 +98,23 @@
             <div class="info">
             <p>My first project - CV project in Markdown. The project used knowledge of Markdown to write a CV.</p>
             </div>
+          </section>
+          </div>
+
+          <div class="code">
+            <section>
+            <h2>My code</h2>
+            <pre><code class="language-js">
+              function getMiddle(s)
+            {
+              lex x = s.length / 2
+              if ((s.length % 2) === 0)  {
+                return (s[x - 1] + s[x]);
+              } else {
+                return s[Math.floor(x)];
+              }
+            }
+            </code></pre>
           </section>
           </div>
 
