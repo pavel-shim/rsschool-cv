@@ -1,60 +1,159 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>My name is Pavel Shymanski</h1>
+<!-- flash -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- flash -->
+  </head>
+  <body>
+    <div class="content">
+      <header class="header">
+        <div class="container header-container">
+          <nav class="navheader">
+            <ul class="ul-line">
+              <li>
+                <section class="section-header visiting-section" id="visiting">
+                  <h4><a href="#Hello">Hello</a></h4>
+                </section>
+              </li>
+              <li>
+                <section class="section-header explore-section" id="explore">
+                  <h4><a href="#Skills">Skills</a></h4>
+                </section> 
+              </li>
+              <li>
+                <section class="section-header video-section" id="video">
+                  <h4><a href="#Projects">Projects</a></h4> 
+                </section>
+              </li>
+              <li>
+                <section class="section-header tikets-section" id="tikets">
+                  <h4><a href="#Education">Education</a></h4>
+                </section>
+              </li>
+              <li>
+                <section class="section-header contacts-section" id="contacts">
+                  <h4><a href="#Contacts">Contacts</a></h4>
+                </section>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      <!-- <h1>My name is Pavel Shymanski</h1> -->
     </header>
-    <img class="foto" src="logo-CV.jpeg" alt="My foto">
-    <article>
-        <h2>About me:</h2>
-    I from Belarus, my goal is to become successful in web development.
-    I have been working for 12 years in sales, have experience in website administration, work with Google Ads and Yandes direct.
-    </article>
-    <br>
-    <main>      
-        <div>My goal is to become successful in web development!</div>
-        <p class="li">I have skills:</p>
-        <ul>
-            <li>Basic knowledge in HTML</li>
-            <li>Basic knowledge in CSS</li>
-            <li>Basic Git Skills</li>
-        </ul>
-        <p class="li">Working with code editors:</p>
-        <ul>
-            <li>Sublime Text</li>
-            <li>Visual Studio Code</li>
-            <li>Notepad++</li> 
-        </ul>
-        <div>My first CV project in Markdown: <a href="https://pavel-shim.github.io/rsschool-cv/cv">https://pavel-shim.github.io/rsschool-cv/cv</a>
-        <p class="li">Education:</p>
-        Graduated from the Belarusian National Economic
-        University, specialization in commercial activities
-        Level of knowledge of English A1</div>
-        <p class="li">My contacts:</p>
-        <ul>
-            <li><a href="mailto:p3757494@gmail.com">p3757494@gmail.com</a></li>
-            <li><a href="https://github.com/pavel-shim">by GitHub</a></li>
-    
-        </ul>
+      <section class="aboutme">
+      <img class="foto" src="logo-CV.jpeg" alt="My foto">
+      <article>
+        <h2 id="Hello">Hi, I'm Pavel</h2>
+        <h1>Front-End Developer</h1>
+        <div class="info1">
+        <p>I am a student Front End developer studying at RSSchool.</p>
+        <p>I live in Belarus, my goal is to constantly gain new knowledge in web development.</p>
+        <p><strong>A little about me:</strong> I have been working in sales for 12 years, held positions from manager to commercial director. I have experience in website administration, I also have experience with Google Ads and Yandes Direct.</p>
+      </div>
+      </article>
+      </section>
+    <main class="main">
+  
+      <div class="skils">      
+      <h2 id="Skills"li">I have skills:</h2>
+      <ul>
+        <li>Basic knowledge HTML</li>
+        <li>Basic knowledge CSS</li>
+        <li>Basic knowledge JavaScript</li>
+        <li>Basic Git Skills</li>
+        <li>Basic Figma Skills</li>
+      </ul>
+    </div>
+    <div class="working">
+      <h2 class="li">Working with code editors:</h2>
+      <ul>
+        <li>Sublime Text</li>
+        <li>Visual Studio Code</li>
+        <li>Notepad++</li> 
+      </ul>
+    </div>
+    <div class="projects">
+      <div class="project1">
+        <a href="https://rolling-scopes-school.github.io/pavel-shim-JSFEPRESCHOOL/js-clock/"  target="_blank"><img class="fotoprojects" src="js-clock1.png" alt="foto_project"></a>
+          <section>
+          <h2 id="Projects">My second projects JS-Clock</h2>
+          <div class="info">
+          <p>I'm doing an assignment from RSSchool JS-Clock. In the task, you need to write a clock in JavaScript that will show the time.</p>
+          </div>
+        </section>
+        </div>
+
+        <div class="project01">
+          <a href="https://pavel-shim.github.io/rsschool-cv/cv"  target="_blank"><img class="fotoprojects" src="CVma.png" alt="CVMarkdown"></a>
+            <section>
+            <h2>My first project</h2>
+            <div class="info">
+            <p>My first project - CV project in Markdown. The project used knowledge of Markdown to write a CV.</p>
+            </div>
+          </section>
+          </div>
+
+          <div class="code">
+            <section>
+            <h2>My code</h2>
+            <pre><code class="language-js">
+              function getMiddle(s)
+            {
+              lex x = s.length / 2
+              if ((s.length % 2) === 0)  {
+                return (s[x - 1] + s[x]);
+              } else {
+                return s[Math.floor(x)];
+              }
+            }
+            </code></pre>
+          </section>
+          </div>
+
+    </div>
+    <div class="education">
+        <section>
+        <h2 id="Education">Education</h2>
+        <div class="info">
+          <ul>
+        <li>Graduated from the Belarusian National Economic
+            University, specialization in commercial activities.</li>
+        <li>Level of knowledge of English A1</li>
+      </ul>
+      </div>
+      </section>
+    </div>
+    <div class="education">
+      <section>
+      <h2 id="Contacts">My contacts</h2>
+      <div class="info">
+      <ul class="contact">
+        <li><a href="mailto:p3757494@gmail.com">p3757494@gmail.com</a></li>
+        <li><a href="https://github.com/pavel-shim"><img class="logogit" src="github.png" alt="gitHub">by GitHub</a></li>
+      </ul>
+    </div>
+    </section>
+    </div>
     </main>
     <footer>
-    <p>
-    <a href="https://rs.school/js-stage0/"><img class="logors" src="logo-rsschool.png" alt="logo-rsschool"></a>
-    Copyright &copy; <time datetime="2021-07-24">24 July 2021</time>
-    Pavel Shymanski <a href="https://github.com/pavel-shim">GitHub</a>
-    </p>
-    <address>Belarus, Minsk</address>
-    </footer>   
+      <div class="info">
+      <a href="https://rs.school/js-stage0/"><img class="logors" src="logo-rsschool.png" alt="logo-rsschool"></a>
+      Copyright &copy; <time datetime="2021-07-24">24 July 2021</time>
+      Pavel Shymanski <a href="https://github.com/pavel-shim"><img class="logogit" src="github.png" alt="gitHub">GitHub</a>
+      <address>Belarus, Minsk</address>
+    </div>
+    </footer> 
+    
 </body>
-</html>
-
 
 
  
