@@ -55,7 +55,7 @@ h1{
 }
 
 .foto {
-  max-width: 200px;
+  max-width: 250px;
   max-height: auto;
   box-shadow: 3px 3px 5px 5px white;
   border-radius: 30px;
@@ -175,3 +175,4 @@ footer {
 .language-js {
   max-width: 300px;
 }
+
