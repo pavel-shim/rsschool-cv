@@ -1,0 +1,400 @@
+body, section,h3,p,h2,div,ul, h1, h4{
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  position: relative;
+  
+}
+
+.body{
+  width: 1920px;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* header */
+
+
+.louvre{
+  margin-left: -132px;
+  margin-top: -75px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+
+.logofoto{
+  margin: 0 20px 0 0;
+}
+
+.logotext{
+  display: flex; 
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 5px;
+  height: 50px;
+  margin-top: 74px;
+}
+
+.header{
+  background: #030303;
+  height: 200px;
+}
+
+li {
+  list-style: none;  
+}
+
+.ul-line{
+  display: flex;
+  max-width: 720px;
+}
+.navheader{
+  height: 50px;
+  margin-top: 74px;
+  margin-right: 78px;
+}
+
+.section-header{
+  text-decoration: none;
+  margin-left: 76px;
+  color:#FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 50px;
+  letter-spacing: 2px;
+}
+
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;   /*изменил с left*/
+}
+/* /header */
+
+/*  del block
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+} 
+
+ .section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+} */
+
+
+/* Welcom section */
+.white-section {
+  background: #E5E5E5;
+  color: #9D8665;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.dark-section{
+  background: #030303;
+  color: #FFFFFF;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+h2{
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 90px;
+  width: 1440px;  /*q*/
+
+}
+h1{
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  line-height: 90px;
+  width: 1440px;  /*q*/
+  margin-top: 39px;
+}
+
+
+.flexmain{
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 598px;
+  position: relative;
+}
+.flexmain p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  margin-top: 26px;
+}
+
+.flexmain button{
+  width: 360px;
+  height: 75px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  background: #710707;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  margin-top: 76px;
+}
+
+.Welcom-section{
+  display: flex;
+  padding-bottom: 0;
+}
+
+.main {
+  background: inherit;
+}
+
+/* Welcom section */
+
+
+/* Visiting section     */
+
+
+.underline-title {
+  position: relative;
+  
+}
+.underline-title::after {
+  content: "";
+  position: absolute;
+  top: 115px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: red;
+}
+
+.container-tourstart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 105px;
+  justify-content: space-between;
+}
+
+.container-tour {
+  color: #000000; 
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+}
+/* del block 
+.container-tour{
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+  color: #000000;
+  margin: 0;
+  padding: 10px;
+  
+}
+.container-tourstart {
+  display: flex;
+  flex-wrap:wrap;
+  align-items: flex-start;
+  margin-top: 105px; 
+}
+*/
+
+
+h3{
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+
+.underline-tour {
+    position: relative;
+    
+  }
+
+.underline-tour::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: -48px;
+    height: 2px;
+    background-color:#710707;
+  }
+
+.around {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;   
+    font-size: 22px;
+    line-height: 26px;
+  }
+.panorama{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;  
+    font-size: 18px;
+    line-height: 21px;  
+  }
+
+  /* .container-tour a{
+    display: block;
+    width: 440px;
+    height: 285px;
+  }  */
+
+/* Visiting section     */
+
+/* explore section start */
+
+span {
+  color:rgb(192, 192, 105);
+}
+.container-flex p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.flex_explore {
+  display: flex;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+}
+
+.explore-section h2{
+  margin-bottom: 100px;
+  max-width: 660px;
+}
+
+.videopicture {
+  position: relative;
+}
+
+.playBIG1 {
+  position: absolute;
+  top: 24%;
+  left: 41%;
+}
+.playBIG2 {
+  position: absolute;
+  top: 30%;
+  left: 46%;
+}
+
+.parallax {
+  background-image:url(https://mdn.mozillademos.org/files/12057/starsolid.gif);
+  background-attachment: fixed, scroll;
+  
+}
+
+/* explore section finish */
+
+
+/*
+.flex-video {
+  display: flex;
+  flex-flow: column;
+}
+.flexcontacts{
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  width: 397px;
+}
+
+.flexcontacts p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  width: 279px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.flexcontacts h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  width: 245px;
+  height: 66px;
+  color: #000000;
+  margin-top: 113px;
+}
+.contactspP2{
+  margin-top: 36px;
+}
+
+.videoP{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  width: 720px;
+  height: 90px;
+  position: absolute;
+  right: 0;
+}
+.imgtikets{
+  margin-top: 100px;
+}
+
+.number {
+  all: unset;
+  width: 3em;
+  text-align: center ;
+  height: 50px;
+}
+button{
+  height: 50px;
+} 
+.contacts-img{
+  margin: 193px 0 0 83px;
+} */
