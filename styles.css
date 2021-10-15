@@ -102,7 +102,7 @@ h1{
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  
+  text-align: center;
 }
 
 .project1, .project01, .code {
