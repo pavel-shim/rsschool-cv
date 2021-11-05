@@ -165,8 +165,10 @@ a {
 }
 
 footer {
+  display: flex;
   text-align: center;
   padding-bottom: 30px;
+  justify-content: center;
 }
 
 .contacts-section a{
